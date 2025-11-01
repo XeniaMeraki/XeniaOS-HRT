@@ -135,7 +135,7 @@
         "matugenSchemeType": "scheme-rainbow",
         "predefinedScheme": "Rosepine",
         "schedulingMode": "off",
-        "useWallpaperColors": true
+        "useWallpaperColors": false
     },
     "controlCenter": {
         "cards": [
@@ -196,6 +196,7 @@
         "backgroundOpacity": 1,
         "colorizeIcons": true,
         "displayMode": "always_visible",
+        "enabled": false,
         "floatingRatio": 1,
         "monitors": [
         ],
