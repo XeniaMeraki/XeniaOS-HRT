@@ -390,7 +390,7 @@ window-rule {
  
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
+window-rule {
     match app-id=r#"^org\.keepassxc\.KeePassXC$"#
     match app-id=r#"^org\.gnome\.World\.Secrets$"#
  
@@ -426,7 +426,7 @@ binds {
     ctrl+alt+T hotkey-overlay-title="Open a Terminal: ptyxis" { spawn "flatpak" "run" "app.devsuite.Ptyxis" ; }
     Ctrl+Shift+Escape hotkey-overlay-title="Open a Resource Usage Analyzer: Mission Center" { spawn "flatpak" "run" " io.missioncenter.MissionCenter"; }
     // Fallback terminal without server
-    Shift+Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
+    Shift+Mod+T hotkey-overlay-title="Open a Terminal: ptyxis" { spawn "ghostty"; }
     Mod+D hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Mod+E hotkey-overlay-title="Open File Manager" { spawn "dolphin"; }
     Mod+Space hotkey-overlay-title="Run applications" { spawn "qs" "-p" "/usr/share/zirconium/noctalia-shell" "ipc" "call" "launcher" "toggle"; }
