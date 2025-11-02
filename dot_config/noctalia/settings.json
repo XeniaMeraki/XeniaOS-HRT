@@ -211,7 +211,7 @@
     "general": {
         "animationDisabled": false,
         "animationSpeed": 1,
-        "avatarImage": "/home/xenia/Pictures/Easy Avatars/Xenia 2.png",
+        "avatarImage": "/usr/share/xeniaos/prototypelogo_jasper_valery.png",
         "compactLockScreen": true,
         "dimDesktop": false,
         "forceBlackScreenCorners": false,
@@ -220,7 +220,7 @@
         "radiusRatio": 1,
         "scaleRatio": 1,
         "screenRadiusRatio": 2,
-        "showScreenCorners": true
+        "showScreenCorners": false
     },
     "hooks": {
         "darkModeChange": "",
@@ -311,26 +311,15 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "defaultWallpaper": "/usr/share/zirconium/noctalia-shell/Assets/Wallpaper/noctalia.png",
-        "directory": "/home/xenia/Pictures/Wallpapers",
+        "defaultWallpaper": "/usr/share/xeniaos/1_chimmie_firefly.png",
+        "directory": "/usr/share/xeniaos/wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
         "fillMode": "crop",
-        "monitors": [
-            {
-                "directory": "/var/home/xenia/Pictures/Wallpapers 2",
-                "name": "DP-1",
-                "wallpaper": "/home/xenia/Pictures/Wallpapers/IDW Sonic 1.jpg"
-            },
-            {
-                "directory": "/var/home/xenia/Pictures/Wallpapers 2",
-                "name": "DP-3",
-                "wallpaper": "/home/xenia/Pictures/Wallpapers/IDW Sonic 1.jpg"
-            }
-        ],
+        "monitors": [ ],
         "randomEnabled": false,
-        "randomIntervalSec": 3,
+        "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
