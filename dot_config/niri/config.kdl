@@ -682,10 +682,18 @@ binds {
 }
  
 layer-rule {
-    match namespace="^quickshell-overview$"
+    match namespace="^noctalia-wallpaper*"
     place-within-backdrop true
 }
  
-debug {
-    honor-xdg-activation-with-invalid-serial
+// Set transparent workspace background color so you see the backdrop at all time.
+layout {
+    background-color "transparent"
+}
+
+// Optionally, disable the workspace shadows in the overview.
+overview {
+    workspace-shadow {
+        off
+    }
 }
