@@ -1,6 +1,6 @@
 {
   "currentThemeName": "custom",
-  "customThemeFile": "/usr/share/xeniaos/DankMaterialShell/XeniaOSCustomTheme.json",
+  "customThemeFile": "/usr/share/xeniaos/zdots/dot_config/DankMaterialShell/XeniaOSCustomTheme.json",
   "matugenScheme": "scheme-rainbow",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
