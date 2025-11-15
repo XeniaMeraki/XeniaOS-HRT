@@ -1,10 +1,6 @@
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration%3A-Introduction.html
 
-// Just switch this if you want to use noctalia instead, vice versa
-include "dms.kdl"
-// include "noctalia.kdl"
-
 input {
     keyboard {
         xkb {
