@@ -683,8 +683,3 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
- 
-// Set transparent workspace background color so you see the backdrop at all time.
-layout {
-    background-color "transparent"
-}
