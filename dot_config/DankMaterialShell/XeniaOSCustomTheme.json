@@ -1,0 +1,11 @@
+{
+  "name": "XeniaOS",
+  "primary": "#EE7B2F",
+  "primaryText": "#ffffff",
+  "surface": "#f4bde6",
+  "surfaceText": "#ffffff",
+  "background": "#363a4f",
+  "backgroundText": "#a6adc8",
+  "outline": "#fab387",
+  "matugen_type": "rainbow"
+}
