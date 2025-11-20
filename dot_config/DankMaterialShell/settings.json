@@ -131,7 +131,7 @@
   "vpnLastConnected": "",
   "iconTheme": "Colloid-Orange-Catppuccin-Dark",
   "launcherLogoMode": "apps",
-  "launcherLogoCustomPath": "",
+  "launcherLogoCustomPath": "/usr/share/xeniaos/wallpapers/prototypelogo_jasper_valery.png",
   "launcherLogoColorOverride": "",
   "launcherLogoColorInvertOnMode": false,
   "launcherLogoBrightness": 0.5,
