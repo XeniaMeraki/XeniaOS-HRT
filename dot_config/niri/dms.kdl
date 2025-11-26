@@ -14,7 +14,7 @@ debug {
 
 layer-rule {
     match namespace="quickshell"
-    place-within-backdrop true
+    place-within-backdrop false
 }
 
 switch-events {
