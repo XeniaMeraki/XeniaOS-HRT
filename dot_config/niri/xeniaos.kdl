@@ -110,9 +110,7 @@ layout {
     }
 
     focus-ring {
-        // How many logical pixels the ring extends out from the windows.
         width 3
-
         // Color of the ring on the active monitor.
         active-color "#FF994B"
         // Color of the ring on inactive monitors.
@@ -123,7 +121,6 @@ layout {
         off
     }
 
-    // You can enable drop shadows for windows.
     shadow {}
 
     struts {}
