@@ -38,7 +38,7 @@ clipboard {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Outputs
 // Remember to uncomment the node by removing "/-"!
-/-output "eDP-1" {
+/-output "DP-1" {
     // Uncomment this line to disable this output.
     // off
  
@@ -52,7 +52,7 @@ clipboard {
     variable-refresh-rate on-demand=true
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 2
+    scale 1
  
     // Transform allows to rotate the output counter-clockwise, valid values are:
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
@@ -69,7 +69,7 @@ clipboard {
     // automatically.
     position x=0 y=0
 }
-/-output "eDP-2" {
+/-output "DP-2" {
     // Uncomment this line to disable this output.
     // off
  
@@ -83,7 +83,7 @@ clipboard {
     variable-refresh-rate on-demand=true
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 2
+    scale 1
  
     // Transform allows to rotate the output counter-clockwise, valid values are:
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
